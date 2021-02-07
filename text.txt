@@ -1,0 +1,12 @@
+pwd // present working directory
+ls // list all files and folders
+Some git command 
+git status // to see the status like how many files are commit and bla bla bla ...
+git init // git initilzation to change the directory in working directory
+git add --a // staging the all files and folders
+git add FILE_NAME // stage the particular file
+git commit -m SOME_MESSAGE // take the snapshot of directory
+git log // get the log of your working directory like how many commit done and who , when and what is commit 
+rm -rf .git // remove a .git file 
+git clone SOME_URL // use for clone code in our local computer
+git clone SOME_URL NEW_NAME // insert a new name *changed*
