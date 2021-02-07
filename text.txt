@@ -1,0 +1,27 @@
+related to git ignore file
+*.log // ignore all .log file
+FOLDER_NAME/ // ignore folder 
+/FOLDER_NAME/ // ignore only outer folder
+
+some linux command
+pwd // present working directory
+ls // list all files and folders
+touch FILE_NAME // making a file
+
+Some git command 
+git status // to see the status like how many files are commit and bla bla bla ...
+git init // git initilzation to change the directory in working directory
+git add --a // staging the all files and folders
+git add . // alternative way to staging all content
+git add FILE_NAME // stage the particular file
+git commit -m SOME_MESSAGE // take the snapshot of directory
+git log // get the log of your working directory like how many commit done and who , when and what is commit 
+rm -rf .git // remove a .git file 
+git clone SOME_URL // use for clone code in our local computer
+git clone SOME_URL NEW_NAME // insert a new name 
+git diff // compare working directory to staging area
+git diff --staged // compare last commit to staging area
+git commit -a -m SOME_MESSAGE // direct commit of tracked modified files not include untracked files
+git rm FILE_NAME // remove a FILE_NAME and doing staging also 
+git mv OLD_FILE_NAME NEW_FILE_NAME // rename a file also staging
+git rm --cached FILE_NAME // untracked the FILE_NAME
