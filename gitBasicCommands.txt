@@ -23,3 +23,4 @@ git diff // compare working directory to staging area
 git diff --staged // compare last commit to staging area
 git commit -a -m SOME_MESSAGE // direct commit of tracked modified files not include untracked files
 git rm FILE_NAME // remove a FILE_NAME and doing staging also 
+git mv OLD_FILE_NAME NEW_FILE_NAME // rename a file also staging
