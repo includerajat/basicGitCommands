@@ -1,11 +1,13 @@
-// related to git ignore file
+related to git ignore file
 *.log // ignore all .log file
 FOLDER_NAME/ // ignore folder 
 /FOLDER_NAME/ // ignore only outer folder
-/////////
+
+some linux command
 pwd // present working directory
 ls // list all files and folders
 touch FILE_NAME // making a file
+
 Some git command 
 git status // to see the status like how many files are commit and bla bla bla ...
 git init // git initilzation to change the directory in working directory
@@ -15,4 +17,6 @@ git commit -m SOME_MESSAGE // take the snapshot of directory
 git log // get the log of your working directory like how many commit done and who , when and what is commit 
 rm -rf .git // remove a .git file 
 git clone SOME_URL // use for clone code in our local computer
-git clone SOME_URL NEW_NAME // insert a new name *changed*
+git clone SOME_URL NEW_NAME // insert a new name 
+git diff // compare working directory to staging area
+git diff --staged // compare last commit to staging area
