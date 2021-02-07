@@ -1,5 +1,6 @@
 pwd // present working directory
 ls // list all files and folders
+touch FILE_NAME // making a file
 Some git command 
 git status // to see the status like how many files are commit and bla bla bla ...
 git init // git initilzation to change the directory in working directory
