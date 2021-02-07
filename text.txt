@@ -20,3 +20,4 @@ git clone SOME_URL // use for clone code in our local computer
 git clone SOME_URL NEW_NAME // insert a new name 
 git diff // compare working directory to staging area
 git diff --staged // compare last commit to staging area
+git commit -a -m SOME_MESSAGE // direct commit of tracked modified files not include untracked files
