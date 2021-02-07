@@ -1,3 +1,8 @@
+// related to git ignore file
+*.log // ignore all .log file
+FOLDER_NAME/ // ignore folder 
+/FOLDER_NAME/ // ignore only outer folder
+/////////
 pwd // present working directory
 ls // list all files and folders
 touch FILE_NAME // making a file
