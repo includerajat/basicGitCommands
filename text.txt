@@ -25,3 +25,14 @@ git commit -a -m SOME_MESSAGE // direct commit of tracked modified files not inc
 git rm FILE_NAME // remove a FILE_NAME and doing staging also 
 git mv OLD_FILE_NAME NEW_FILE_NAME // rename a file also staging
 git rm --cached FILE_NAME // untracked the FILE_NAME
+git log -p // what is the differnce between commit files
+git log -p -SOME_NUMBER // give the SOME_NUMBER commit changes
+git log --stat // give the short overview difference between commits
+git log --pretty=oneline // give the difference in one line
+git log --pretty=short // same thing
+git log --pretty=full // same thing
+git log --since=2.days // last 2 days commit 2.weeks 2.years 2.months
+git log --pretty=format:"%h -- %an" // check on git log website
+git commit --amend // append a last commit to new commit 
+git restore --staged FILE_NAME // unstaged the staged file
+git checkout -- FILE_NAME // change the file into last modified file
