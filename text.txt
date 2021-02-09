@@ -36,3 +36,4 @@ git log --pretty=format:"%h -- %an" // check on git log website
 git commit --amend // append a last commit to new commit 
 git restore --staged FILE_NAME // unstaged the staged file
 git checkout -- FILE_NAME // change the file into last modified file
+git checkout -f // change working directory into last commit repositry
